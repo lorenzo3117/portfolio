@@ -1,0 +1,39 @@
+.about {
+    margin: auto;
+    padding: 40px;
+    background: $color-about-gradient;
+    border-radius: 10px;
+    color: $color-lightmode;
+    text-align: center;
+    width: auto;
+
+    h2 {
+        margin: 60px 0 30px 0;
+        color: $color-lightmode;
+    }
+
+    img {
+        max-width: 150px;
+        margin: auto;
+    }
+}
+.about .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    /*
+    a {
+        @extend %white-button;
+        height: auto;
+        display: block;
+    }
+    */
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .about {
+        width: 50%;
+    }
+}

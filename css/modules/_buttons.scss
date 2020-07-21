@@ -1,0 +1,17 @@
+.btn-white {
+    border: 2px solid $color-lightmode;
+    background: rgba(0, 0, 0, 0);
+    color: $color-lightmode;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+    height: auto;
+    display: block;
+
+    &:hover {
+        background: $color-lightmode;
+        color: $color-darkmode;
+    }
+}

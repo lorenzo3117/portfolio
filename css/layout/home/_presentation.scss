@@ -1,0 +1,27 @@
+.presentation {
+
+    .title {
+        padding: 100px 0;
+        color: $color-darkmode;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .presentation {
+        display: grid;
+        grid-template-columns: 1fr 55%;
+        gap: 80px;
+        padding: 200px 0 20px 0;
+        
+        h1, h3 {
+            text-align: left;
+        }
+
+        .about {
+            margin: 0;
+            width: auto;
+        }
+    }
+}

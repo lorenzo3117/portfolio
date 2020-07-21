@@ -1,0 +1,64 @@
+// Import
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=DM+Sans:wght@700&family=Nunito:wght@400;700&display=swap');
+
+// Variables
+$f-cairo: 'Cairo', sans-serif;
+$f-title: 'DM Sans', sans-serif;
+$f-nunito: 'Nunito', sans-serif;
+
+// Styles
+html, button, input {
+  font-family: $f-nunito;
+  letter-spacing: 0.5px;
+  color: $color-lightmode;
+}
+
+p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: $f-title;
+  font-weight: bold;
+  font-size: 5.6rem;
+  text-align: center;
+  text-shadow: -2px 4px 3px rgba(0, 0, 0, 0.3);
+  color: $color-darkmode;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: $f-cairo;
+  margin-bottom: 35px;
+  font-size: 2rem;
+  color: $color-darkmode;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: $f-nunito;
+  font-weight: 700;
+  padding: 20px 0;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+strong {
+  color: $color-darkmode;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 530px) {
+
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+}
