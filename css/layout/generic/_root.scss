@@ -45,22 +45,22 @@ article {
     padding: 0 3%;
     height: 100%;
     margin: auto;
-
-    &::before {
-        content: "";
-        background-image: url("../assets/images/container-background.png");
-        background-size: cover;
-        background-position: right bottom;
-        height: 600px;
-        width: 100%;
-        opacity: 0.15;
-        position: absolute;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: -10;
-    }
+}
+.container-background::before {
+    content: "";
+    background-image: url("../../../assets/images/container-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    height: 600px;
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -10;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -68,10 +68,9 @@ article {
     .container {
         max-width: 1350px;
         padding: 0 50px;
-
-        &::before {
-            height: 1000px;
-        }
+    }
+    .container-background::before {
+        height: 850px;
     }
 
     article {
