@@ -51,7 +51,7 @@ article {
         background-image: url("../assets/images/container-background.png");
         background-size: cover;
         background-position: right bottom;
-        height: 1000px;
+        height: 600px;
         width: 100%;
         opacity: 0.15;
         position: absolute;
@@ -68,6 +68,10 @@ article {
     .container {
         max-width: 1350px;
         padding: 0 50px;
+
+        &::before {
+            height: 1000px;
+        }
     }
 
     article {
