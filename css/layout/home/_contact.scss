@@ -1,0 +1,37 @@
+.contact {
+
+    h2 {
+        margin: 30px 0;
+    }
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        p {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            text-align: left;
+        }
+
+        input {
+            padding: 5px;
+            color: black;
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        textarea {
+            border-radius: 5px;
+        }
+    }
+}

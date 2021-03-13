@@ -1,41 +1,16 @@
-.cv .cv-presentation {
-    padding: 30px 0;
-
+.cv {
+    color: $color-darkmode;
+    
     h2 {
-        margin: 0;
+        margin-top: 130px;
     }
 
-    h3 a {
+    a {
         text-decoration: underline;
     }
-}
 
-.cv .cv-content {
-    display: grid;
-    grid-template-columns: 65% auto;
-    column-gap: 16px;
-}
-
-.cv .cv-content p:nth-of-type(2n) {
-    text-align: right;
-}
-
-.cv .cv-skills {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
-    strong {
+    embed {
         display: block;
-        margin-bottom: 8px;
+        margin: 0 auto;
     }
-}
-
-.cv ul {
-    list-style-type: inherit;
-    margin-left: 30px;
-    margin-bottom: 20px;
-}
-
-.cv p, .cv h3, .cv li {
-    color: $color-darkmode;
 }

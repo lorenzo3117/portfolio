@@ -493,50 +493,67 @@ footer div p {
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
-.cv .cv-presentation {
-  padding: 30px 0;
+.competencies {
+  color: #111111;
 }
 
-.cv .cv-presentation h2 {
-  margin: 0;
+.contact h2 {
+  margin: 30px 0;
 }
 
-.cv .cv-presentation h3 a {
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+}
+
+.contact form p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact form label {
+  text-align: left;
+}
+
+.contact form input {
+  padding: 5px;
+  color: black;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.contact form textarea {
+  border-radius: 5px;
+}
+
+.cv {
+  color: #111111;
+}
+
+.cv h2 {
+  margin-top: 130px;
+}
+
+.cv a {
   text-decoration: underline;
 }
 
-.cv .cv-content {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 65% auto;
-      grid-template-columns: 65% auto;
-  -webkit-column-gap: 16px;
-          column-gap: 16px;
-}
-
-.cv .cv-content p:nth-of-type(2n) {
-  text-align: right;
-}
-
-.cv .cv-skills {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.cv .cv-skills strong {
+.cv embed {
   display: block;
-  margin-bottom: 8px;
-}
-
-.cv ul {
-  list-style-type: inherit;
-  margin-left: 30px;
-  margin-bottom: 20px;
-}
-
-.cv p, .cv h3, .cv li {
-  color: #111111;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=styles.css.map */
