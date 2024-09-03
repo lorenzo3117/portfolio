@@ -6,7 +6,9 @@
         {% for skill in skills %}
             <div class="skill">
                 <h3>{{ skill.title }}</h3>
-                <p>{{ skill.description }}</p>
+                {% for part in skill.parts %}
+                    <p>{{ part }}</p>
+                {% endfor %}
             </div>
         {% endfor %}
     </div>

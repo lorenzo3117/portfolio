@@ -21,9 +21,12 @@ h1 {
 h2 {
     font-size: 2rem;
 }
+h3 {
+    font-size: 1.25rem;
+}
 
 p + p {
-    padding-top: space(0.5);
+    padding-top: space(1);
 }
 
 a {
