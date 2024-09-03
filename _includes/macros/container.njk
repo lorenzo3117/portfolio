@@ -1,5 +1,5 @@
-{% macro container(title) %}
-    <div class="container">
+{% macro container(title, id) %}
+    <div id="{{ id }}" class="container">
         <h2 class="container-title">{{ title }}</h2>
         {{ caller() }}
     </div>

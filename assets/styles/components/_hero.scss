@@ -14,6 +14,14 @@
 
 .hero-title {
   font-size: 6em;
+
+  @include down(900) {
+    font-size: 4em;
+  }
+
+  @include down(450) {
+    font-size: 3em;
+  }
 }
 
 .hero-subtitle {
@@ -24,6 +32,10 @@
 
 .hero-img {
   align-self: flex-end;
+
+  @include down(1150) {
+    width: 40%;
+  }
 
   @include down(900) {
     display: none;
