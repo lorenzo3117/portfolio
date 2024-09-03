@@ -1,0 +1,25 @@
+@function strip-unit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+
+    @return $number;
+}
+
+@mixin up($size) {
+    $size: strip-unit($size);
+    @media (min-width: $size * 1px) {
+        @content;
+    }
+}
+
+@mixin down($size) {
+    $size: strip-unit($size);
+    @media (max-width: $size * 1px) {
+        @content;
+    }
+}
+
+@function space($i) {
+    @return calc(#{$i} * 16px);
+}

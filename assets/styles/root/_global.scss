@@ -1,0 +1,37 @@
+* {
+    transition: 0.3s ease;
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+    color: var(--light-color);
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+h1, h2 {
+    font-family: TrajanBold, sans-serif;
+}
+
+p + p {
+    padding-top: space(0.5);
+}
+
+a {
+    color: var(--gray-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--light-color);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: space(4) space(2);
+}
+.container-title {
+    margin-bottom: space(4);
+}

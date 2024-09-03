@@ -1,0 +1,31 @@
+.hero {
+  //height: calc(100vh - 88px);
+  height: 80vh;
+  padding-bottom: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include down(900) {
+    text-align: center;
+  }
+}
+
+.hero-title {
+  font-size: 6em;
+}
+
+.hero-subtitle {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  color: var(--gold-color);
+}
+
+.hero-img {
+  align-self: flex-end;
+
+  @include down(900) {
+    display: none;
+  }
+}

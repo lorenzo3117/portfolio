@@ -1,0 +1,20 @@
+:root {
+    //--main-bg-color: #1e1e1e;
+    --main-bg-color: #0f0f1b;
+    --light-color: #fafbf6;
+    --gray-color: #9c9c9c;
+    --dark-blue-color: #1d2538;
+    --gold-color: #eab368;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src:  url('/assets/fonts/Montserrat.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: TrajanBold;
+    src:  url('/assets/fonts/Trajan Pro Bold.ttf') format('truetype');
+    font-display: swap;
+}

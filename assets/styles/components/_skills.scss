@@ -1,0 +1,22 @@
+.skills {
+  background-color: var(--dark-blue-color);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: space(2);
+}
+
+.skill {
+  border: var(--gray-color) solid 1px;
+  padding: space(2);
+
+  & h3 {
+    padding-bottom: space(2);
+  }
+
+  &:hover {
+    border-color: var(--gold-color);
+  }
+}
