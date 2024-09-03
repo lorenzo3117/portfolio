@@ -1,15 +1,14 @@
 {% from 'macros/container.njk' import container %}
 
-<h1>Skills</h1>
- <div id="skills" class="skills">
-    {% call container('Skills') %}
-        <div class="skills-grid">
-            {% for skill in skills %}
-                <div class="skill">
-                    <h3>{{ skill.title }}</h3>
-                    <p>{{ skill.description }}</p>
-                </div>
-            {% endfor %}
-        </div>
-    {% endcall %}
- </div>
+<div id="skills" class="skills">
+{% call container('Skills') %}
+    <div class="skills-grid">
+        {% for skill in skills %}
+            <div class="skill">
+                <h3>{{ skill.title }}</h3>
+                <p>{{ skill.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endcall %}
+</div>
