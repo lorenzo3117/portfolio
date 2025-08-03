@@ -31,6 +31,8 @@ section {
 
 .hero__header__profile-image {
     width: 192px;
+    height: 192px;
+    object-fit: cover;
     border-radius: 100%;
     margin: 0 auto;
 }
