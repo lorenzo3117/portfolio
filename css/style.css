@@ -38,10 +38,6 @@ section {
 }
 
 /* Projects */
-/*.project-card > div {*/
-
-/*}*/
-
 .project-card > footer {
     display: flex;
     justify-content: flex-end;
